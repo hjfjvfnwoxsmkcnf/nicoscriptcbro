@@ -53,7 +53,8 @@ Tab:AddButton({
 	Name = "Check Key",
 	Callback = function()
 		if _G.KeyInput == G.Key then
-			MakeScriptHub()
+		MakeScriptHub()
+		CorrectKeyNotification()		
 		else
 			IncorrectKeyNotification()
 	end
