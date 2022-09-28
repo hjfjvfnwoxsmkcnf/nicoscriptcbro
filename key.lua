@@ -3,13 +3,13 @@ local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Nico Key System", HidePremium = false, SaveConfig = true, IntroText = "Nico Club", IntroEnabled = true})
 
 OrionLib:MakeNotification({
-	Name = "Scrip key system!",
+	Name = "Script key system!",
 	Content = "Reloaded content... wanna start!!!??"..Player.Name..".",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
 
-_G.Key = "NICOSUPERPRO2004"
+_G.Key = "NICOHUBV1"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
@@ -19,7 +19,7 @@ end
 function CorrectKeyNotification()
 	OrionLib:MakeNotification({
 		Name = "Script loaded!",
-		Content = "Reloaded key... full access for"..Player.Name..".",
+		Content = "Reloaded key... full access for "..Player.Name..".",
   		Image = "rbxassetid://6257079063",
 		Time = 5
   	})
