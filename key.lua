@@ -52,10 +52,10 @@ Tab:AddTextbox({
 Tab:AddButton({
 	Name = "Check Key",
 	Callback = function()
-      	  if _G.KeyInput == G.Key then
-          MakeScriptHub()
-          else
-            IncorrectKeyNotification()
-      end
-  end    
+		if _G.KeyInput == G.Key then
+			MakeScriptHub()
+		else
+			IncorrectKeyNotification()
+	end
+end    
 })
