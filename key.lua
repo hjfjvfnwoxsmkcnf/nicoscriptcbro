@@ -17,21 +17,21 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/nicosc
 end
 
 function CorrectKeyNotification()
-  OrionLib:MakeNotification({
-	Name = "Script loaded!",
-	Content = "Reloaded key... full access for"..Player.Name..".",
-  	Image = "rbxassetid://6257079063",
-	Time = 5
-  })
+	OrionLib:MakeNotification({
+		Name = "Script loaded!",
+		Content = "Reloaded key... full access for"..Player.Name..".",
+  		Image = "rbxassetid://6257079063",
+		Time = 5
+  	})
 end
 
-function IncorrectKeyNotification()
-  OrionLib:MakeNotification({
-	Name = "Invalid key!",
-	Content = "Get your key in - discord.gg/nicosclub",
-  	Image = "rbxassetid://6257079063",
-	Time = 5
-  })
+function CorrectKeyNotification()
+	OrionLib:MakeNotification({
+		Name = "Script unloaded!",
+		Content = "Get key from - discord.gg/nicosclub",
+  		Image = "rbxassetid://6257079063",
+		Time = 5
+  	})
 end
 
 local Tab = Window:MakeTab({
