@@ -13,7 +13,7 @@ _G.Key = "NICOSUPERPRO2004"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/nicoscriptcbro/main/script.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/nicoscriptcbro/main/script.lua"))()
 end
 
 function CorrectKeyNotification()
