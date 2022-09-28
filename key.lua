@@ -13,26 +13,24 @@ _G.Key = "NICOSUPERPRO2004"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-print("Key true! Nico-Nico#7777")
-  
-  local Window = OrionLib:MakeWindow({Name = "Nico Script CB:RO", HidePremium = false, SaveConfig = true, IntroText = "Nico CB:RO", IntroEnabled = true})
+
 end
 
 function CorrectKeyNotification()
   OrionLib:MakeNotification({
-	  Name = "Script loaded!",
-	  Content = "Reloaded key... full access for"..Player.Name..".",
+	Name = "Script loaded!",
+	Content = "Reloaded key... full access for"..Player.Name..".",
   	Image = "rbxassetid://6257079063",
-	  Time = 5
+	Time = 5
   })
 end
 
 function IncorrectKeyNotification()
   OrionLib:MakeNotification({
-	  Name = "Invalid key!",
-	  Content = "Get your key in - discord.gg/nicosclub",
+	Name = "Invalid key!",
+	Content = "Get your key in - discord.gg/nicosclub",
   	Image = "rbxassetid://6257079063",
-	  Time = 5
+	Time = 5
   })
 end
 
@@ -54,7 +52,7 @@ Tab:AddTextbox({
 Tab:AddButton({
 	Name = "Check Key",
 	Callback = function()
-      		if _G.KeyInput == G.Key then
+      	  if _G.KeyInput == G.Key then
           MakeScriptHub()
           else
             IncorrectKeyNotification()
