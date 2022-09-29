@@ -1,10 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "Nico Key System", HidePremium = false, SaveConfig = true, IntroText = "Nico Club", IntroEnabled = true})
+local Window = OrionLib:MakeWindow({Name = "Nico Key System", HidePremium = false, SaveConfig = true, IntroText = "Nico Key", IntroEnabled = false})
 
 OrionLib:MakeNotification({
 	Name = "Scrip key system!",
-	Content = "Reloaded content... wanna start!!!??"..Player.Name..".",
+	Content = "Reloaded content... wanna start!!!?? "..Player.Name..".",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -13,13 +13,32 @@ _G.Key = "NICOHUBV1"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/nicoscriptcbro/main/script.lua"))()
+https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx1
+
+local Window = OrionLib:MakeWindow({Name = "Nico Script System", HidePremium = false, SaveConfig = true, IntroText = "Nico Script Club", IntroEnabled = true})
+local Tab = Window:MakeTab({
+	Name = "Pet Sim X",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "EzPets",
+	Callback = function()
+		https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx1
+  	end    
+})
+Tab:AddButton({
+	Name = "Free gamepasses, auto farm",
+	Callback = function()
+		https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx2
+  	end    
+})
 end
 
 function CorrectKeyNotification()
 	OrionLib:MakeNotification({
 		Name = "Script loaded!",
-		Content = "Reloaded key... full access for"..Player.Name..".",
+		Content = "Reloaded key... full access for "..Player.Name..".",
   		Image = "rbxassetid://6257079063",
 		Time = 5
   	})
