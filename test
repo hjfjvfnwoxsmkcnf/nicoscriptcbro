@@ -25,7 +25,7 @@ function CorrectKeyNotification()
   	})
 end
 
-function CorrectKeyNotification()
+function IncorrectKeyNotification()
 	OrionLib:MakeNotification({
 		Name = "Script unloaded!",
 		Content = "Get key from - discord.gg/nicosclub",
