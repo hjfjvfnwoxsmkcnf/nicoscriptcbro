@@ -33,7 +33,27 @@ Tab:AddButton({
 		https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx2
   	end    
 })
+-- PET SIM X --
+local Tab = Window:MakeTab({
+	Name = "Pet Sim X",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "EzPets",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx1')))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Free gamepasses, auto farm",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx2')))()
+  	end    
+})
+-- PET SIM X --
 end
+
 
 function CorrectKeyNotification()
 	OrionLib:MakeNotification({
