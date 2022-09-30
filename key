@@ -26,7 +26,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Free gamepasses, auto farm",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx2"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
   	end    
 })
 -- PET SIM X --
@@ -37,15 +37,15 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "Hearrtt Script",
+	Name = "All guns",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/Phantom-Forces-Cheat/main/Main.lua", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))();
   	end    
 })
 Tab:AddButton({
 	Name = "top 5 negrov",
 	Callback = function()
-		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
   	end    
 })
 -- Phantom Forces --
