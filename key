@@ -10,25 +10,7 @@ OrionLib:MakeNotification({
 _G.Key = "NICOHUBV1"
 _G.KeyInput = "string"
 function MakeScriptHub()
-https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx1
 local Window = OrionLib:MakeWindow({Name = "Nico Script System", HidePremium = false, SaveConfig = true, IntroText = "Nico Script Club", IntroEnabled = true})
-local Tab = Window:MakeTab({
-	Name = "Pet Sim X",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "EzPets",
-	Callback = function()
-		https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx1
-  	end    
-})
-Tab:AddButton({
-	Name = "Free gamepasses, auto farm",
-	Callback = function()
-		https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx2
-  	end    
-})
 -- PET SIM X --
 local Tab = Window:MakeTab({
 	Name = "Pet Sim X",
@@ -38,16 +20,35 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "EzPets",
 	Callback = function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx1')))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx1"))()
   	end    
 })
 Tab:AddButton({
 	Name = "Free gamepasses, auto farm",
 	Callback = function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx2')))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/petsimx2"))()
   	end    
 })
 -- PET SIM X --
+-- Phantom Forces --
+local Tab = Window:MakeTab({
+	Name = "Phantom Forces",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Hearrtt Script",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/Phantom-Forces-Cheat/main/Main.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "top 5 negrov",
+	Callback = function()
+		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+  	end    
+})
+-- Phantom Forces --
 end
 
 
