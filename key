@@ -45,7 +45,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Phantom Forces [Unlock All Guns, Admin Guns, Attachments]",
 	Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/mT10xnt7", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Nico-NicoDisco/scripts/main/phantomforces1", true))()
   	end    
 })
 -- Phantom Forces --
