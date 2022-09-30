@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Nico Key System", HidePremium = false, SaveConfig = true, IntroText = "Nico Key", IntroEnabled = false})
 OrionLib:MakeNotification({
-	Name = "Scrip key system!",
+	Name = "Script key system!",
 	Content = "Reloaded content... wanna start!!!?? "..Player.Name..".",
 	Image = "rbxassetid://4483345998",
 	Time = 5
