@@ -39,7 +39,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "All guns",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))()
   	end    
 })
 Tab:AddButton({
