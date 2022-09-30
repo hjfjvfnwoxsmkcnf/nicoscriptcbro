@@ -37,15 +37,15 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "All guns",
+	Name = "Phantom Forces [Silent Aim, Esp]",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
   	end    
 })
 Tab:AddButton({
-	Name = "top 5 negrov",
+	Name = "Phantom Forces [Unlock All Guns, Admin Guns, Attachments]",
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/mT10xnt7", true))()
   	end    
 })
 -- Phantom Forces --
